@@ -8,6 +8,10 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="16" />
 
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER"
+        />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -36,6 +40,22 @@
         <activity
             android:name="com.uuarner.thenewboston.Email"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uuarner.thenewboston.Camera"
+            android:label="Camera Application"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name="com.uuarner.thenewboston.Data"
+            android:label="Camera Application"
+            >
+        </activity>
+        <activity
+            android:name="com.uuarner.thenewboston.OpenData"
+            android:label="Camera Application"
+            >
         </activity>
         <activity
             android:name="com.uuarner.thenewboston.Splash"
