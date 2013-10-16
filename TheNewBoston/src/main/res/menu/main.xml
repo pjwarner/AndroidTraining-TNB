@@ -1,6 +1,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+    <item android:id="@+id/aboutus"
+        android:title="About Us"
         android:orderInCategory="100"
-        android:showAsAction="never" />
+        android:numericShortcut="1"
+        android:alphabeticShortcut="a"
+        />
+    <item android:id="@+id/preferences"
+        android:title="Preferences"
+        android:orderInCategory="100"
+        />
+    <item android:id="@+id/exit"
+        android:title="Exit"
+        android:orderInCategory="100"
+        />
 </menu>

@@ -24,9 +24,9 @@ public class OpenData extends Activity implements View.OnClickListener, RadioGro
         setContentView(R.layout.send);
         init();
 
-        Bundle gotBasket = getIntent().getExtras();
+       /* Bundle gotBasket = getIntent().getExtras();
         gotBread = gotBasket.getString("key");
-        question.setText(gotBread);
+        question.setText(gotBread);*/
     }
 
     private void init() {
